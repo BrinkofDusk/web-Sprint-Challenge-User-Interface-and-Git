@@ -56,13 +56,32 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 header {
-    display: inline-block;
+    display: flex;
+    flex-wrap:wrap;
+   
+    justify-content:space-evenly;
+    margin:0 20% 0 10%;
+    padding-top:2%;
 }
 #large{
-    margin:0 35%
+    margin:0 20%;
+   padding-bottom: 1%
+}
+#logo {
+    margin-left:10%;
+}
+nav{
+  
+   display:inline;
+   width:60%;
+   
+  
+   
 }
 nav a{
     text-decoration:none;
+    margin:0 5%;
+    
 }
 
 h1, h2, h3, h4, h5 {
