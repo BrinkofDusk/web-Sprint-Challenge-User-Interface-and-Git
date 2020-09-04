@@ -119,6 +119,8 @@ p {
 }
 
 .middle-content {
+    display:flex;
+    flex-wrap:wrap;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -133,7 +135,13 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.middle-content button{
+    background-color:white;
+    border:1px solid black;
+    width:10%;
+    border-radius:15%;
+     
+}
 .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
